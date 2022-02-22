@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ `cat script_updated` != true ]
+if [ `cat script_updated` != "true" ]
 then
     git stash
     git pull
