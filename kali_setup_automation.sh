@@ -24,9 +24,7 @@ git clone https://github.com/rebootuser/LinEnum.git
 
 cd $download_script_pwd
 
-echo "All done!"
-echo "Test123"
-echo "1337"
+echo "Install completed"
 
 
 
