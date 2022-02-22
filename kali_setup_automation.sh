@@ -1,9 +1,18 @@
 #!/bin/bash
+if [ `cat script_updated` != true ]
+then
+    git stash
+    git pull
+    echo "true" > script_updated
+    ./kali_setup_automation.sh
+fi
+
+
+
 download_script_pwd=`pwd`
-git stash
-git pull
+
 chmod +x kali_setup_automation.sh
-./kali_setup_automation.sh
+
 
 sudo apt-get update
 sudo apt-get upgrade -y
@@ -25,5 +34,7 @@ git clone https://github.com/carlospolop/PEASS-ng.git
 
 cd $download_script_pwd
 
+rm script_updated
 echo "All done!"
 echo "Test123"
+echo "3000"
