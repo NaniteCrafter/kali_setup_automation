@@ -1,4 +1,5 @@
 #!/bin/bash
+download_script_pwd=`pwd`
 git stash
 git pull
 chmod +x kali_setup_automation.sh
@@ -18,4 +19,11 @@ sudo apt-get upgrade --fix-missing
 sudo apt-get update
 sudo apt-get upgrade -y
 
+cd ~
+git clone https://github.com/carlospolop/PEASS-ng.git
+
+
+cd $download_script_pwd
+
 echo "All done!"
+echo "Test123"
