@@ -4,15 +4,11 @@ then
     git stash
     git pull
     echo "true" > script_updated
+    chmod +x kali_setup_automation.sh
     ./kali_setup_automation.sh
 fi
 
-
-
 download_script_pwd=`pwd`
-
-chmod +x kali_setup_automation.sh
-
 
 sudo apt-get update
 sudo apt-get upgrade -y
