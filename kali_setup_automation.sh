@@ -1,12 +1,4 @@
 #!/bin/bash
-if [ `cat script_updated` != "true" ]
-then
-    git stash
-    git pull
-    echo "true" > script_updated
-    chmod +x kali_setup_automation.sh
-    ./kali_setup_automation.sh
-else
 download_script_pwd=`pwd`
 
 sudo apt-get update
@@ -24,16 +16,17 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 cd ~
-git clone https://github.com/carlospolop/PEASS-ng.git
+mkdir -p scripts/{privesc,test}
 
+cd scripts/privesc
+git clone https://github.com/carlospolop/PEASS-ng.git
+git clone https://github.com/rebootuser/LinEnum.git
 
 cd $download_script_pwd
 
-rm script_updated
 echo "All done!"
 echo "Test123"
-echo "555"
+echo "777"
 
 
-fi
 
