@@ -6,8 +6,7 @@ then
     echo "true" > script_updated
     chmod +x kali_setup_automation.sh
     ./kali_setup_automation.sh
-fi
-
+else
 download_script_pwd=`pwd`
 
 sudo apt-get update
@@ -33,4 +32,8 @@ cd $download_script_pwd
 rm script_updated
 echo "All done!"
 echo "Test123"
-echo "3000"
+echo "555"
+
+
+fi
+
