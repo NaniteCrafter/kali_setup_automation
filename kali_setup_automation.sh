@@ -7,7 +7,7 @@ sudo apt-get install gobuster
 
 
 
-sudo apt-get autoclean &&  sudo apt-get clean && sudo apt-get autoremove
+sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
 sudo apt-get update --fix-missing
 sudo apt-get upgrade --fix-missing
 sudo apt-get update
