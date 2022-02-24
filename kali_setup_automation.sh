@@ -18,7 +18,10 @@ sudo apt-get upgrade -y
 cd ~
 mkdir -p scripts/{privesc,test}
 
-cd scripts/privesc
+cd ~/scripts
+git clone https://github.com/SecureAuthCorp/impacket.git
+
+cd ~/scripts/privesc
 git clone https://github.com/carlospolop/PEASS-ng.git
 git clone https://github.com/rebootuser/LinEnum.git
 
