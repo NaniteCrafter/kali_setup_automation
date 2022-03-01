@@ -7,7 +7,7 @@ sudo apt-get install terminator -y
 sudo apt-get install cherrytree -y
 sudo apt-get install gobuster -y
 sudo apt-get install seclists -y
-
+sudo apt-get install python-pip -y
 
 sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
 sudo apt-get update --fix-missing
