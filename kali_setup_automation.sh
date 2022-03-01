@@ -18,7 +18,7 @@ sudo apt-get upgrade -y
 #While watching https://www.youtube.com/watch?v=VCoNI3SvePM it was mentioned that pip for Python2 does not come installed with kali
 #https://pip.pypa.io/en/stable/installation/
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-sudo python3 get-pip.py
+python3 get-pip.py
 
 cd ~
 mkdir -p scripts/{privesc,test}
