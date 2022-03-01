@@ -15,11 +15,18 @@ sudo apt-get upgrade --fix-missing
 sudo apt-get update
 sudo apt-get upgrade -y
 
+#While watching https://www.youtube.com/watch?v=VCoNI3SvePM it was mentioned that pip for Python2 does not come installed with kali
+#https://pip.pypa.io/en/stable/installation/
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python2 get-pip.py
+
 cd ~
 mkdir -p scripts/{privesc,test}
 
 cd ~/scripts
 git clone https://github.com/SecureAuthCorp/impacket.git
+cd ~/scripts/impacket
+pip install -r requirements.txt
 
 cd ~/scripts/privesc
 git clone https://github.com/carlospolop/PEASS-ng.git
