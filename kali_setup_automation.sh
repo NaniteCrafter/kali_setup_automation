@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#To do:
+#Install Responder
+#   sudo apt-get install responder -y
 download_script_pwd=`pwd`
 
 sudo apt-get update
