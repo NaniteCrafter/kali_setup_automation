@@ -41,6 +41,8 @@ git clone https://github.com/rebootuser/LinEnum.git
 cd $download_script_pwd
 
 echo ""
+echo ""
+echo ""
 echo "Install/update completed"
 echo ""
 echo "The following programs were installed/git repos cloned"
