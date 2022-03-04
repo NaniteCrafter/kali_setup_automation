@@ -13,7 +13,8 @@ sudo apt-get install gobuster -y
 sudo apt-get install seclists -y
 sudo apt-get install python-pip -y
 
-sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
+#Uncomment the following line if you need to fix stuff like proken installs/uninstalls/ or other errors
+#sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
 sudo apt-get update --fix-missing
 sudo apt-get upgrade --fix-missing
 sudo apt-get update
