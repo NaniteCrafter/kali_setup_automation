@@ -2,7 +2,7 @@
 
 #To do:
 # Install tmux
-#
+# Install postman
 download_script_pwd=`pwd`
 
 sudo apt-get update
@@ -44,8 +44,8 @@ echo "Install completed"
 echo ""
 echo "Stuff you need to install manually:"
 echo "For Firefox:"
-echo "  Foxyproxy"
-echo "  Wappalyzer"
+echo "  Foxyproxy: https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/" 
+echo "  Wappalyzer: https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/"
 echo ""
 echo "Stuff you need to configure manually:"
 echo "  Configure Foxyproxy"
