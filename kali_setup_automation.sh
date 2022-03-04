@@ -40,7 +40,22 @@ git clone https://github.com/rebootuser/LinEnum.git
 
 cd $download_script_pwd
 
-echo "Install completed"
+echo ""
+echo "Install/update completed"
+echo ""
+echo "The following programs were installed/git repos cloned"
+echo "Kali and program updates via sudo apt-get update and sudo apt-get upgrade"
+echo "terminator"
+echo "cherrytree"
+echo "gobuster"
+echo "seclists"
+echo "python-pip for python2"
+echo "nc.exe.git"
+echo "impacket.git"
+echo "PEASS-ng.git"
+echo "LinEnum.git"
+echo ""
+echo ""
 echo ""
 echo "Stuff you need to install manually:"
 echo "For Firefox:"
