@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #To do:
-#
+# Install tmux
 #
 download_script_pwd=`pwd`
 
@@ -41,6 +41,13 @@ git clone https://github.com/rebootuser/LinEnum.git
 cd $download_script_pwd
 
 echo "Install completed"
-
-
-
+echo ""
+echo "Stuff you need to install manually:"
+echo "For Firefox:"
+echo "  Foxyproxy"
+echo "  Wappalyzer"
+echo ""
+echo "Stuff you need to configure manually:"
+echo "  Configure Foxyproxy"
+echo "  Pin Terminator to panel"
+echo "  Pin Cherrytree to panel"
