@@ -3,6 +3,7 @@
 #To do:
 # Install tmux
 # Install postman
+# Add https://github.com/fuzzdb-project/fuzzdb
 download_script_pwd=`pwd`
 
 sudo apt-get update
