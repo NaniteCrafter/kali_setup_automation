@@ -4,6 +4,7 @@
 # Install tmux
 # Install postman
 # Add https://github.com/fuzzdb-project/fuzzdb
+# https://github.com/swisskyrepo/PayloadsAllTheThings
 download_script_pwd=`pwd`
 
 sudo apt-get update
