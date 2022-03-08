@@ -5,6 +5,7 @@
 # Install postman
 # Add https://github.com/fuzzdb-project/fuzzdb
 # https://github.com/swisskyrepo/PayloadsAllTheThings
+
 download_script_pwd=`pwd`
 
 sudo apt-get update
@@ -66,6 +67,7 @@ echo "Stuff you need to install manually:"
 echo "For Firefox:"
 echo "  Foxyproxy: https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/" 
 echo "  Wappalyzer: https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/"
+echo "  Cookie-editor: https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/"
 echo ""
 echo "Stuff you need to configure manually:"
 echo "  Configure Foxyproxy"
