@@ -37,6 +37,7 @@ git clone https://github.com/int0x33/nc.exe.git
 git clone https://github.com/SecureAuthCorp/impacket.git
 cd ~/scripts/impacket
 pip install -r requirements.txt
+pip2 install -r requirements.txt
 python2 setup.py install
 
 cd ~/scripts/privesc
