@@ -32,6 +32,7 @@ cd ~
 mkdir -p scripts/{privesc,test}
 
 cd ~/scripts
+git clone https://github.com/kozmer/log4j-shell-poc.git
 git clone https://github.com/int0x33/nc.exe.git
 git clone https://github.com/SecureAuthCorp/impacket.git
 cd ~/scripts/impacket
@@ -41,6 +42,15 @@ python setup.py install
 cd ~/scripts/privesc
 git clone https://github.com/carlospolop/PEASS-ng.git
 git clone https://github.com/rebootuser/LinEnum.git
+
+cd $download_script_pwd
+
+cd ./files
+cat files.tar.gz.zip.* > files.tar.gz.zip
+unzip -P "secure_password\!233" files.tar.gz.zip
+gunzip files.tar.gz
+tar -xf files.tar
+cp jdk1.8.0_20 ~/scripts/log4j-shell-poc
 
 cd $download_script_pwd
 
