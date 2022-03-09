@@ -48,7 +48,12 @@ cd $download_script_pwd
 
 cd ./files
 cat files.tar.gz.zip.* > files.tar.gz.zip
+echo "current directory is"
+pwd
+echo ""
+ls -lah
 unzip -P "secure_password\!233" files.tar.gz.zip
+echo password is "secure_password\!233"
 gunzip files.tar.gz
 tar -xf files.tar
 cp jdk1.8.0_20 ~/scripts/log4j-shell-poc
