@@ -7,9 +7,8 @@
 # https://github.com/swisskyrepo/PayloadsAllTheThings
 # Do this via tmux for the tmux logging
 #   Install tmux if I have to
-#   What alternatives are there to logging?
-#    I should be logging everything for my OSCP exam anyway, and having timestams would be useful since I normally have multiple windows open
-#          It would be really great to implement off-side backup of logging outputs, but this will likely have very sensitive info in it that shouldn't be used for work
+#       Also install and learn how to use tmux-logging https://github.com/tmux-plugins/tmux-logging
+#   Create an exported bookmarks file with folders that can be imported into Firefox
 
 download_script_pwd=`pwd` | tee > update.log
 
@@ -92,6 +91,7 @@ echo "  Wappalyzer: https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/" 
 echo "  Cookie-editor: https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/" | tee -a update.log
 echo "" | tee -a update.log
 echo "Stuff you need to configure manually:" | tee -a update.log
+echo "  Import the bookmarks file. Warning: This will overwrite all current bookmarks."
 echo "  Configure Foxyproxy" | tee -a update.log
 echo "  Pin Terminator to panel" | tee -a update.log
 echo "  Pin Cherrytree to panel" | tee -a update.log
