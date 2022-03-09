@@ -9,6 +9,7 @@
 #   Install tmux if I have to
 #   What alternatives are there to logging?
 #    I should be logging everything for my OSCP exam anyway, and having timestams would be useful since I normally have multiple windows open
+#          It would be really great to implement off-side backup of logging outputs, but this will likely have very sensitive info in it that shouldn't be used for work
 
 download_script_pwd=`pwd` | tee > update.log
 
