@@ -53,10 +53,11 @@ echo "current directory is"
 pwd
 echo ""
 ls -lah
-unzip -y -P "secure_password!233" files.tar.gz.zip
+unzip -P "secure_password!233" files.tar.gz.zip
 gunzip files.tar.gz
 tar -xf files.tar
 cp -r jdk1.8.0_20 ~/scripts/log4j-shell-poc
+rm files.tar.gz.zip gunzip files.tar.gz tar -xf files.tar
 
 cd $download_script_pwd
 
