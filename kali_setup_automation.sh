@@ -5,6 +5,10 @@
 # Install postman
 # Add https://github.com/fuzzdb-project/fuzzdb
 # https://github.com/swisskyrepo/PayloadsAllTheThings
+# Do this via tmux for the tmux logging
+#   Install tmux if I have to
+#   What alternatives are there to logging?
+#    I should be logging everything for my OSCP exam anyway, and having timestams would be useful since I normally have multiple windows open
 
 download_script_pwd=`pwd` | tee > update.log
 
