@@ -53,10 +53,9 @@ pwd
 echo ""
 ls -lah
 unzip -P "secure_password!233" files.tar.gz.zip
-echo password is "secure_password!233"
 gunzip files.tar.gz
 tar -xf files.tar
-cp jdk1.8.0_20 ~/scripts/log4j-shell-poc
+cp -r jdk1.8.0_20 ~/scripts/log4j-shell-poc
 
 cd $download_script_pwd
 
