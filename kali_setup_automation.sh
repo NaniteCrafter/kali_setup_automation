@@ -38,7 +38,7 @@ git clone https://github.com/SecureAuthCorp/impacket.git
 cd ~/scripts/impacket
 pip install -r requirements.txt
 pip2 install -r requirements.txt
-python2 setup.py install
+sudo python2 setup.py install
 
 cd ~/scripts/privesc
 git clone https://github.com/carlospolop/PEASS-ng.git
