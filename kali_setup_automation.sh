@@ -37,7 +37,7 @@ git clone https://github.com/int0x33/nc.exe.git
 git clone https://github.com/SecureAuthCorp/impacket.git
 cd ~/scripts/impacket
 pip install -r requirements.txt
-python setup.py install
+python2 setup.py install
 
 cd ~/scripts/privesc
 git clone https://github.com/carlospolop/PEASS-ng.git
