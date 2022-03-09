@@ -52,7 +52,7 @@ echo "current directory is"
 pwd
 echo ""
 ls -lah
-unzip -P "secure_password!233" files.tar.gz.zip
+unzip -P "secure_password!233" files.tar.gz.zip -y
 gunzip files.tar.gz
 tar -xf files.tar
 cp -r jdk1.8.0_20 ~/scripts/log4j-shell-poc
