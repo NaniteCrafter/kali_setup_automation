@@ -56,7 +56,7 @@ ls -lah
 unzip -P "secure_password!233" files.tar.gz.zip
 gunzip files.tar.gz
 tar -xf files.tar
-cp -r jdk1.8.0_20 ~/scripts/log4j-shell-poc
+sudo cp -r jdk1.8.0_20 ~/scripts/log4j-shell-poc
 rm -Rdf files.tar.gz.zip files.tar.gz files.tar jdk1.8.0_20
 
 cd $download_script_pwd
