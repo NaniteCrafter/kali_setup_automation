@@ -33,7 +33,7 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 
 cd ~
-mkdir -p scripts/{privesc,tools}
+mkdir -p ~/scripts/{privesc,tools}
 
 cd ~/scripts
 git clone https://github.com/kozmer/log4j-shell-poc.git
@@ -44,7 +44,7 @@ mkdir ~/tmux_logs
 git clone https://github.com/tmux-plugins/tmux-logging.git
 echo "set -g history-limit 50000" > ~/.tmux.conf
 echo "set -g @plugin 'tmux-plugins/tmux-logging'" >> ~/.tmux.conf
-echo "run-shell ~/clone/path/logging.tmux" >> ~/.tmux.conf
+echo "run-shell ~/scripts/tools/tmux-logging/logging.tmux" >> ~/.tmux.conf
 echo "set -g @logging-path '~/tmux_logs'" >> ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 
