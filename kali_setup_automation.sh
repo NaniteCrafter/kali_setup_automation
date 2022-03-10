@@ -37,26 +37,43 @@ mkdir -p ~/scripts/{privesc,tools}
 
 cd ~/scripts
 git clone https://github.com/kozmer/log4j-shell-poc.git
+cd ~/scripts/log4j-shell-poc
+git stash && git pull && git stash drop
+
+cd ~/scripts
 git clone https://github.com/int0x33/nc.exe.git
+cd ~/scripts/nc.exe
+git stash && git pull && git stash drop
+
+cd ~/scripts
 git clone https://github.com/SecureAuthCorp/impacket.git
+cd ~/scripts/impacket
+git stash && git pull && git stash drop
+pip install -r requirements.txt
+pip2 install -r requirements.txt
+sudo python2 setup.py install
+sudo python3 setup.py install
+
 cd ~/scripts/tools
 mkdir ~/tmux_logs
 git clone https://github.com/tmux-plugins/tmux-logging.git
+cd ~/scripts/tmux-logging
+git stash && git pull && git stash drop
 echo "set -g history-limit 50000" > ~/.tmux.conf
 echo "set -g @plugin 'tmux-plugins/tmux-logging'" >> ~/.tmux.conf
 echo "run-shell ~/scripts/tools/tmux-logging/logging.tmux" >> ~/.tmux.conf
 echo "set -g @logging-path '~/tmux_logs'" >> ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 
-cd ~/scripts/impacket
-pip install -r requirements.txt
-pip2 install -r requirements.txt
-sudo python2 setup.py install
-sudo python3 setup.py install
-
 cd ~/scripts/privesc
 git clone https://github.com/carlospolop/PEASS-ng.git
+cd ~/scripts/privesc/PEASS-ng
+git stash && git pull && git stash drop
+
+cd ~/scripts/privesc
 git clone https://github.com/rebootuser/LinEnum.git
+cd ~/scripts/privesc/LinEnum
+git stash && git pull && git stash drop
 
 cd $download_script_pwd
 
