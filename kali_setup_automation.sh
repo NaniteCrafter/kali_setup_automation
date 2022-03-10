@@ -63,7 +63,6 @@ echo "set -g history-limit 50000" > ~/.tmux.conf
 echo "set -g @plugin 'tmux-plugins/tmux-logging'" >> ~/.tmux.conf
 echo "run-shell ~/scripts/tools/tmux-logging/logging.tmux" >> ~/.tmux.conf
 echo "set -g @logging-path ~/tmux_logs" >> ~/.tmux.conf
-echo "run-shell ~/scripts/tools/tmux-logging/scripts/toggle_logging.sh" >> ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 
 cd ~/scripts/privesc
