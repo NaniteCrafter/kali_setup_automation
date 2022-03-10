@@ -38,6 +38,7 @@ cd ~/scripts
 git clone https://github.com/kozmer/log4j-shell-poc.git
 cd ~/scripts/log4j-shell-poc
 git stash && git pull && git stash drop
+pip install -r requirements.txt
 
 cd ~/scripts
 git clone https://github.com/int0x33/nc.exe.git
