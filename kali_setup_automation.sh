@@ -55,7 +55,7 @@ sudo python2 setup.py install
 sudo python3 setup.py install
 
 cd ~/scripts/tools
-mkdir ~/tmux_logs
+mkdir ~/tmux_logsTEST123
 git clone https://github.com/tmux-plugins/tmux-logging.git
 cd ~/scripts/tmux-logging
 git stash && git pull && git stash drop
@@ -122,8 +122,13 @@ echo "  Configure Foxyproxy"
 echo "  Pin Terminator to panel"
 echo "  Pin Cherrytree to panel"
 echo ""
-echo "How to use tmux-logging"
+echo "How to use tmux"
 echo "Note: The default prefix key is ctrl+b"
+echo "  Detach session: "
+echo "  Attach session: "
+echo ""
+echo ""
+echo "How to use tmux-logging"
 echo "  Toggle (start/stop) logging in the current pane."
 echo "  Key binding: prefix + shift + p"
 echo ""
