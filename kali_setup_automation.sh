@@ -55,7 +55,7 @@ sudo python2 setup.py install
 sudo python3 setup.py install
 
 cd ~/scripts/tools
-mkdir ~/tmux_logsTEST123
+mkdir ~/tmux_logs
 git clone https://github.com/tmux-plugins/tmux-logging.git
 cd ~/scripts/tmux-logging
 git stash && git pull && git stash drop
