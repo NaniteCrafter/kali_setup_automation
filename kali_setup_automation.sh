@@ -6,9 +6,8 @@
 # Add https://github.com/fuzzdb-project/fuzzdb
 # https://github.com/swisskyrepo/PayloadsAllTheThings
 # Do this via tmux for the tmux logging
-#   Install tmux if I have to
-#       Also install and learn how to use tmux-logging https://github.com/tmux-plugins/tmux-logging
 #   Create an exported bookmarks file with folders that can be imported into Firefox
+# Install https://github.com/calebstewart/pwncat
 
 download_script_pwd=`pwd`
 
