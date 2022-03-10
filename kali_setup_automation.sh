@@ -62,7 +62,7 @@ git stash && git pull && git stash drop
 echo "set -g history-limit 50000" > ~/.tmux.conf
 echo "set -g @plugin 'tmux-plugins/tmux-logging'" >> ~/.tmux.conf
 echo "run-shell ~/scripts/tools/tmux-logging/logging.tmux" >> ~/.tmux.conf
-echo "set -g @logging-path '~/tmux_logs'" >> ~/.tmux.conf
+echo "set -g @logging-path '~/tmux_logs_30000'" >> ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 
 cd ~/scripts/privesc
@@ -128,7 +128,7 @@ echo "  Detach session: "
 echo "  Attach session: "
 echo ""
 echo ""
-echo "How to use tmux-logging"
+echo "How to use tmux-logging, sourced from: https://github.com/tmux-plugins/tmux-logging.git"
 echo "  Toggle (start/stop) logging in the current pane."
 echo "  Key binding: prefix + shift + p"
 echo ""
