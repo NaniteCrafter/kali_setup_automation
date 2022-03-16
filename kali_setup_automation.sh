@@ -109,6 +109,7 @@ rm -Rdf files.tar.gz.zip files.tar.gz files.tar jdk1.8.0_20
 cd $download_script_pwd
 
 cp ./my_custom_script.sh ~/scripts/rogue-jndi/my_custom_script.sh
+chmod +x ~/scripts/rogue-jndi/my_custom_script.sh
 
 echo ""
 echo ""
