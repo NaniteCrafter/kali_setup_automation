@@ -54,6 +54,19 @@ pip2 install -r requirements.txt
 sudo python2 setup.py install
 sudo python3 setup.py install
 
+cd ~/scripts
+git clone https://github.com/puzzlepeaches/Log4jUnifi.git
+cd ~/scripts/Log4jUnifi
+git stash && git pull && git stash drop
+pip install -r requirements.txt
+pip2 install -r requirements.txt
+sudo python2 setup.py install
+sudo python3 setup.py install
+
+cd ~/scripts
+git clone https://github.com/veracode-research/rogue-jndi.git
+git stash && git pull && git stash drop
+
 cd ~/scripts/tools
 mkdir ~/tmux_logs
 git clone https://github.com/tmux-plugins/tmux-logging.git
