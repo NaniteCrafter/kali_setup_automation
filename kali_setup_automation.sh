@@ -18,6 +18,7 @@ sudo apt-get install cherrytree -y
 sudo apt-get install gobuster -y
 sudo apt-get install seclists -y
 sudo apt-get install python-pip -y
+sudo apt-get install openjdk-11-jdk -y
 sudo apt-get install maven -y
 
 #Uncomment the following line if you need to fix stuff like proken installs/uninstalls/ or other errors
