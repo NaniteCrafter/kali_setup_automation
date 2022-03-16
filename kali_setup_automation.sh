@@ -18,6 +18,7 @@ sudo apt-get install cherrytree -y
 sudo apt-get install gobuster -y
 sudo apt-get install seclists -y
 sudo apt-get install python-pip -y
+sudo apt-get install maven -y
 
 #Uncomment the following line if you need to fix stuff like proken installs/uninstalls/ or other errors
 #sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
@@ -116,6 +117,7 @@ echo "cherrytree"
 echo "gobuster"
 echo "seclists"
 echo "python-pip for python2"
+echo "maven (for java compiling/building)"
 echo "nc.exe.git"
 echo "impacket.git"
 echo "PEASS-ng.git"
