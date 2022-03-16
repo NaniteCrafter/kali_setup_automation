@@ -67,7 +67,9 @@ sudo python3 setup.py install
 
 cd ~/scripts
 git clone https://github.com/veracode-research/rogue-jndi.git
+cd ~/scripts/rogue-jndi
 git stash && git pull && git stash drop
+mvn package
 
 cd ~/scripts/tools
 mkdir ~/tmux_logs
