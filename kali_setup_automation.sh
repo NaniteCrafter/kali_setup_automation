@@ -8,6 +8,11 @@
 # Do this via tmux for the tmux logging
 #   Create an exported bookmarks file with folders that can be imported into Firefox
 # Install https://github.com/calebstewart/pwncat
+#
+#Do the following from
+#git clone https://github.com/saghul/lxd-alpine-builder.git
+#cd lxd-alpine-builder
+#sudo ./build-alpine
 
 download_script_pwd=`pwd`
 
@@ -110,6 +115,10 @@ cd $download_script_pwd
 
 cp ./my_custom_script.sh ~/scripts/rogue-jndi/my_custom_script.sh
 chmod +x ~/scripts/rogue-jndi/my_custom_script.sh
+
+mkdir ~/scripts/tomcat
+chmod +x make-war.sh
+cp make-war.sh ~/scripts/tomcat
 
 echo ""
 echo ""
