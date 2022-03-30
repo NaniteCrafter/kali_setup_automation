@@ -17,6 +17,7 @@
 #Get the pentestmonkey github including the php reverse shell
 #
 #Create a file for getting a better shell such as pty.pty spawn via python..... 
+# stty raw -echo
 
 download_script_pwd=`pwd`
 
