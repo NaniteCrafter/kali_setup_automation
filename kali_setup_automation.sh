@@ -13,6 +13,10 @@
 #git clone https://github.com/saghul/lxd-alpine-builder.git
 #cd lxd-alpine-builder
 #sudo ./build-alpine
+#
+#Get the pentestmonkey github including the php reverse shell
+#
+#Create a file for getting a better shell such as pty.pty spawn via python..... 
 
 download_script_pwd=`pwd`
 
