@@ -20,6 +20,7 @@
 # stty raw -echo
 #
 #Get https://github.com/mzet-/linux-exploit-suggester
+#   Take a look at https://github.com/bcoles for more useful repos
 
 download_script_pwd=`pwd`
 
