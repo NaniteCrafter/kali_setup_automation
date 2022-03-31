@@ -18,6 +18,8 @@
 #
 #Create a file for getting a better shell such as pty.pty spawn via python..... 
 # stty raw -echo
+#
+#Get https://github.com/mzet-/linux-exploit-suggester
 
 download_script_pwd=`pwd`
 
