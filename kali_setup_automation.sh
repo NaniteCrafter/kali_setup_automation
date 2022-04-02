@@ -21,6 +21,8 @@
 #
 #Get https://github.com/mzet-/linux-exploit-suggester
 #   Take a look at https://github.com/bcoles for more useful repos
+#
+#https://github.com/java-decompiler/jd-gui
 
 download_script_pwd=`pwd`
 
