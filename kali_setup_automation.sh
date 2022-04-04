@@ -22,7 +22,7 @@
 #Get https://github.com/mzet-/linux-exploit-suggester
 #   Take a look at https://github.com/bcoles for more useful repos
 #
-#https://github.com/java-decompiler/jd-gui
+#
 
 download_script_pwd=`pwd`
 
@@ -85,6 +85,12 @@ git clone https://github.com/veracode-research/rogue-jndi.git
 cd ~/scripts/rogue-jndi
 git stash && git pull && git stash drop
 mvn package
+
+cd ~/scripts
+git clone https://github.com/java-decompiler/jd-gui.git
+cd ~/scripts/jd-gui
+git stash && git pull && git stash drop
+./gradlew build
 
 cd ~/scripts/tools
 mkdir ~/tmux_logs
