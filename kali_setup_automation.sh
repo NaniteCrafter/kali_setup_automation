@@ -91,7 +91,7 @@ git clone https://github.com/java-decompiler/jd-gui.git
 cd ~/scripts/jd-gui
 git stash && git pull && git stash drop
 ./gradlew build
-bash -c "echo "To run this java decompiler use the following command, replaxing the version number with your version number.\njava -jar ~/scripts/jd-gui/build/libs/jd-gui-1.6.6.jar\nAlso make sure that the jar " > ~/scripts/jd-gui/How_to_use_this_java_decompiler.txt"
+bash -c 'echo "To run this java decompiler use the following command, replaxing the version number with your version number.\njava -jar ~/scripts/jd-gui/build/libs/jd-gui-1.6.6.jar\nAlso make sure that the jar " > ~/scripts/jd-gui/How_to_use_this_java_decompiler.txt'
 
 cd ~/scripts/tools
 mkdir ~/tmux_logs
