@@ -19,7 +19,7 @@
 #Create a file for getting a better shell such as pty.pty spawn via python..... 
 # stty raw -echo
 #
-#Get https://github.com/mzet-/linux-exploit-suggester
+#
 #   Take a look at https://github.com/bcoles for more useful repos
 #
 #
@@ -93,6 +93,11 @@ git stash && git pull && git stash drop
 ./gradlew build
 echo "To run this java decompiler use the following command, replaxing the version number with your version number." > ~/scripts/jd-gui/How_to_use_this_java_decompiler.txt
 echo "java -jar ~/scripts/jd-gui/build/libs/jd-gui-1.6.6.jar" >> ~/scripts/jd-gui/How_to_use_this_java_decompiler.txt
+
+cd ~/scripts
+git clone https://github.com/mzet-/linux-exploit-suggester.git
+cd ~/scripts/linux-exploit-suggester
+git stash && git pull && git stash drop
 
 cd ~/scripts/tools
 mkdir ~/tmux_logs
