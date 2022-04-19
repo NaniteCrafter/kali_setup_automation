@@ -35,6 +35,7 @@ sudo apt-get install seclists -y
 sudo apt-get install python-pip -y
 sudo apt-get install openjdk-11-jdk -y
 sudo apt-get install maven -y
+sudo apt-get install feroxbuster -y
 
 #Uncomment the following line if you need to fix stuff like proken installs/uninstalls/ or other errors
 #sudo apt-get autoclean && sudo apt-get clean && sudo apt-get autoremove
